@@ -2,13 +2,12 @@
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/node:1": {},
     "ghcr.io/devcontainers-contrib/features/bash-command:1": {
       "command": "curl -L https://foundry.paradigm.xyz | sudo -u ${_REMOTE_USER} bash && sudo -u ${_REMOTE_USER} ${_REMOTE_USER_HOME}/.foundry/bin/foundryup && git config --system --add safe.directory /workspaces/solidity-template"
     },
     "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {},
     "ghcr.io/guiyomh/features/vim:0": {},
-    "ghcr.io/mikaello/devcontainer-features/modern-shell-utils:1": {},
+    "ghcr.io/mikaello/devcontainer-features/modern-shell-utils:2": {},
     "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
         "packages": "make"
     }
