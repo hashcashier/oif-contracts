@@ -14,5 +14,12 @@
   },
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:${containerEnv:HOME}/.foundry/bin"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "JuanBlanco.solidity"
+      ]
+    }
   }
 }

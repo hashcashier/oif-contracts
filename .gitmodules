@@ -13,3 +13,6 @@
 [submodule "lib/broadcaster"]
 	path = lib/broadcaster
 	url = https://github.com/openintentsframework/broadcaster
+[submodule "lib/solady"]
+	path = lib/solady
+	url = https://github.com/vectorized/solady
